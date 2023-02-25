@@ -1,0 +1,78 @@
+:root{
+--color-transparente: #F3FFBD;
+--color-claro: #6F8F72;
+--color-escuro: #1F2F16;
+
+}
+
+html, body{
+    margin: 0%;
+}
+body{
+    height: 98vh;
+    background-color: var(--color-claro);
+}
+header{
+    background-color: var(--color-escuro);
+}
+header h1{
+    margin: 0%;
+    padding: 60px 0px;
+    color: white;
+    font-variant: small-caps;
+    font-size: 4em;
+    text-align: center;
+}
+main{
+    padding: 55px 40px;
+    background-image: url(../img/frente-de-site.jpg);
+    background-position: center top;
+    background-size: contain;
+
+}
+section{
+    max-width: 550px;
+    padding: 12px;
+    padding-top: 60px;
+    border-radius: 15%;
+    background-color: rgba(255, 255, 255, 0.762);
+    text-align: center;
+    margin: auto; 
+}
+section a{
+    color: black;
+    text-decoration: none;
+}
+section a:hover{
+    color: red;
+    text-decoration: underline;
+}
+section p{
+    margin: 0%;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+section h2{
+    font-size: 36px;
+    margin: 0%;
+    margin-bottom: 2%;
+}
+section img{
+    border-radius: 50%;
+    width: 260px;
+}
+footer{
+    color: white;
+    background-color: #1F2F16;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: white;
+    text-decoration: none ;
+}
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+}
